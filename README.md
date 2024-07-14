@@ -22,7 +22,7 @@ Git (optional, for cloning the repository)
 
 Installation
 1: Clone the repository:
-git clone <repository-url>
+git clone https://github.com/KingAhmedii/21is63-software-testing.git
 cd ecommerce-clone
 2: Install the dependencies:
 npm install
