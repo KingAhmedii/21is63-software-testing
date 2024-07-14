@@ -60,4 +60,4 @@ Node.js
 Express.js
 SQLite
 Sequelize
-https://alanbinu-ecommerce.web.app/
+https://alanbinu-ecommerce.web.app
