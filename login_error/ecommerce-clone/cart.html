@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Amazon Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+        </div>
+        <div class="user">
+            <span id="username-display"></span>
+            <a id="login-link" href="login.html">Login</a>
+            <a id="logout-link" href="#" onclick="logout()">Logout</a>
+        </div>
+        <div class="cart">
+            <a href="index.html"><button>Back to Home</button></a>
+        </div>
+    </header>
+
+    <main>
+        <section class="cart-items">
+            <h2>Your Cart</h2>
+            <div id="cart-list">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+            <div class="cart-summary">
+                <p id="total-cost">Total: ₹0.00</p>
+                <button onclick="checkout()">Checkout</button>
+                <button onclick="emptyCart()">Empty Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
